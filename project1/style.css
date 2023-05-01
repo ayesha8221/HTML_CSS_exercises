@@ -1,29 +1,31 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{
-    margin: -6px -6px -6px -6px;
-    padding: 6px 6px 6px 6px;
+    margin: -6px 0px -6px 0px;
+    padding: 6px 0px 6px 0px;
     /* margin: 0; */
     /* padding: 0; */
     box-sizing: inherit;
     font-family: 'Quicksand', serif;
+    /* overflow-block: hidden; */
+    /* overflow-x: hidden; */
 }
 
 nav {
-    display: flex;
+    /* display: flex; */
     width: 100%;
     background-color: rgb(51,51,51);
     position: relative;
     text-transform: uppercase;
-    padding: 32px 24px 32px 24px;
+    padding: 32px 0px 32px 0px;
 }
 
 a {
-    padding-right: 80px;
+    
 }
 
 nav a {
    color: rgb(169, 169, 169);
+   padding-right: 40px;
 }
 
 nav h3 {
@@ -34,36 +36,156 @@ nav h3 {
    letter-spacing: 0.091em;
    text-align: left;
    padding: 0 16px 0;
+   width: fit-content;
 }
 
 .naur {
     font-size: 12px;
-    letter-spacing: normal;
+    /* letter-spacing: normal; */
     font-weight: 400;
-    flex-grow: 1;
-    flex-basis: auto;
+    /* flex-grow: 1; */
+    /* flex-basis: auto; */
     justify-content: flex-end;
-    height: inherit;
+    /* height: inherit; */
     align-items: center;
-    display: flex;
-    text-transform: none;
+    /* display: flex; */
+    /* text-transform: none; */
     box-sizing: inherit;
-    padding-right: 32px;
+    padding-right: 10px;
+    /* padding-left: 200px; */
     text-transform: uppercase;
     position: relative;
+    display: flex;
+    text-decoration:none;
 }
 
-span {
+/* HTML exercises section */
+h1 {
     text-align: center;
+    max-width: 100%;
     font-family: 'Quicksand', sans-serif;
-    /* -webkit-font-smoothing: antialiased; */
     font-size: 22px;
-    color: rgb(89, 89, 89);
-    line-height: 1.4;
+    color: rgb(94, 94, 94);
+
+    /* line-height: 1.5; */
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.091em;
     overflow-wrap:break-word;
+    padding-top: 56px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 33px 48px 0px 48px;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
 
+.grid-item1, .grid-item2 {
+    padding: 0 24px 24px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.grid-item3, .grid-item4 {
+    padding: 0 24px 24px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.grid-item5, .grid-item6 {
+    padding: 0px 48px 24px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.grid-item7, .grid-item8 {
+    padding: 0px 48px 48px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.grid-item9, .grid-item10 {
+    padding: 0px 48px 48px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.grid-item11, .grid-item12 {
+    padding: 0px 48px 48px 48px;
+    text-transform: none;
+    letter-spacing: normal;
+    /* color: rgb(94,94,94); */
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.grid-item7, .grid-item9, .grid-item11 {
+    padding: 20px;
+}
+
+.grid-item2, .grid-item4, .grid-item6, 
+.grid-item8, .grid-item10, .grid-item12 {
+    color: #5E5E5E;
+}
+
+/* Coding and sustainability section */
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* position: relative; */
+    vertical-align: center;
+    padding: 48px 24px 48px 24px;
+    margin: 0 63px;
+    gap: 48px 48px;
+    text-align: center;
+    position: relative;
+    color: rgb(94, 94, 94);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item14, .grid-item16, .grid-item18 
+{ padding-top: 90px;}
+
+/* text links */
+a {
+    color: rgb(135, 114, 103);
+}
+
+a:hover {
+    color: rgb(79, 69, 63);
+}
+
+h4 {
+    color: black;
+    text-align: center;
+}
+ li {
+    color: #5E5E5E;
+    text-align: center;
+    
+ }
